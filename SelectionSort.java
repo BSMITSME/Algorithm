@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class selection_sort {
+public class SelectionSort {
     public static void main(String[] args){
         int i , j, min, temp;
         int index = 0;
