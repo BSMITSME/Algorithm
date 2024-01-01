@@ -6,8 +6,8 @@ class ArrayCopyOfDemo {
             "Affogato", "Americano", "Cappuccino", "Corretto", "Cortado",
             "Doppio", "Espresso", "Frappucino", "Freddo", "Lungo", "Macchiato",
             "Marocchino", "Ristretto" };
-        var messsage = "hello";
-        
+
+
 
         String[] copyTo = java.util.Arrays.copyOfRange(copyFrom, 2, 9);
         for (String coffee : copyTo) {
